@@ -23,7 +23,7 @@ Installs required packages
 
 ### 'node server.js'
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:8083) to view it in the browser.
+Open [http://localhost:8083](http://localhost:8083) to view it in the browser.
 
 - Currently only support Square Inc. stock, new stocks will be added soon.
 
