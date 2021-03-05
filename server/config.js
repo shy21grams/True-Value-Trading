@@ -1,5 +1,12 @@
 // server/config.js
 module.exports = {
-    MONGO_URI: 'mongodb+srv://quanglddev:Kid1412hn@cluster0.gtaqh.mongodb.net/StockDB',
-    client_id: 'JZQ0U0EOJI1XGP3XTZTKNZTNEPFOIAS2'
+    // Setup local MongoDB or use free hosting at cloud.mongodb.com
+    // URI example is for connecting to cloud.mongodb.com
+    MONGO_URI: 'mongodb+srv://<username>:<password>O@<clusterinfo>.mongodb.net',
+    
+    
+    
+    // TDAmeritrade API key from https://developer.tdameritrade.com/
+    client_id: '<ConsumerKey>@AMER.OAUTHAP'  
+    
 };
