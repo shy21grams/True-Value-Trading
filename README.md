@@ -11,8 +11,21 @@
 ## Demo
 Here is a working live demo: https://cryptic-meadow-20166.herokuapp.com/
 
+## Prerequisites
+To run your own build you need to have 
+- TD Ameritrade Developer Account, see https://developer.tdameritrade.com, and update ./server/config.js
+- MongoDB instance, see https://www.mongodb.com/try, and update ./server/config.js
+
 ## Usage
-Currently only support Square Inc. stock, new stocks will be added soon.
+
+### 'npm install'
+Installs required packages
+
+### 'node server.js'
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:8083) to view it in the browser.
+
+- Currently only support Square Inc. stock, new stocks will be added soon.
 
 ### Select Date Range
 ![](https://github.com/quanglddev/True-Value-Trading/blob/media/demo_time_select.png?raw=true)
